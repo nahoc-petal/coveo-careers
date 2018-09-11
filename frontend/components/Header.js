@@ -24,6 +24,7 @@ class Header extends Component {
                     <title>
                         WordPress + React Starter Kit Frontend by Postlight
                     </title>
+                    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"></link>
                 </Head>
             </div>
         );

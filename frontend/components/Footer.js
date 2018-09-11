@@ -7,6 +7,12 @@ const footerStyle = {
   borderTopColor: '#dee1e5',
 }
 
+const bottomFooterStyle = {
+  borderTopColor: '#dee1e5',
+  borderTopWidth: 1,
+  borderTopStyle: 'solid',
+}
+
 const Footer = () => (
     <footer style={footerStyle}>
       <Container>
@@ -25,6 +31,12 @@ const Footer = () => (
                 <a>Say hi.</a>
             </Link>
         </p>
+        </Container>
+        <Container>
+          <p>Give us a call <a href="tel:4188063191">418 806 3191</a></p>
+        </Container>
+        <Container style={bottomFooterStyle}>
+        <p>sub footer</p>
         </Container>
     </footer>
 );

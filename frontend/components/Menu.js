@@ -26,6 +26,16 @@ const linkStyle = {
   marginRight: 15
 };
 
+const homeLinkStyle = {
+  marginRight: 15,
+  backgroundImage: 'url(/static/images/logo_blue.svg)',
+  backgroundRepeat: 'no-repeat',
+  backgroundPosition: 'left center',
+  fontSize: 0,
+  height: 60,
+  width: 100,
+};
+
 class Menu extends Component {
   constructor() {
       super();
@@ -63,10 +73,10 @@ class Menu extends Component {
       <div style={menuStyle}>
         <Container style={containerStyle}>
           <Link href="/">
-              <a style={linkStyle}>Home</a>
+              <a style={homeLinkStyle}>Home</a>
           </Link>
           <div style={containerStyle}>
-            {menuItems}
+            {/*menuItems*/}
             <Link href="/">
               <Button isColor='primary'>Join Coveo</Button>
             </Link>

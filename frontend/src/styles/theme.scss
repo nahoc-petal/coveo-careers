@@ -1,0 +1,33 @@
+$themeColor-Light: #fff;
+$themeColor-Dark: #000;
+
+* {
+  font-family: 'Lato', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: Tiempos;
+  src: url("/static/fonts/Tiempos-Semibold.otf") format("opentype");
+}
+
+.title {
+  font-family: Tiempos;
+  font-size: 48px;
+  letter-spacing: -.5px;
+  line-height: 1.16;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+iframe {
+  width: 80vw;
+  max-width: 1080px;
+  height: calc(80vw / ( 16 / 9 ));
+  margin: auto;
+}

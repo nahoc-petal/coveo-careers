@@ -23,11 +23,13 @@
         "express": "^4.16.2",
         "isomorphic-unfetch": "^2.0.0",
         "next": "latest",
-        "react": "^16.0.0"
+        "react": "^16.0.0",
+        "react-youtube": "^7.6.0"
     },
     "devDependencies": {
         "autoprefixer": "7.1.5",
         "babel-plugin-module-resolver": "^2.7.1",
+        "babel-plugin-styles": "^0.1.2",
         "babel-plugin-wrap-in-js": "^1.1.0",
         "glob": "^7.1.2",
         "node-sass": "^4.4.0",

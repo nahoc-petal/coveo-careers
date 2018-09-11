@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Link from "next/link"
-import { Title , Subtitle, Column, Columns } from 'bloomer'
+import { Title, Subtitle, Column, Columns } from 'bloomer'
 
 const cardStyle = {
   flexDirection: 'column',
@@ -10,7 +10,7 @@ export default class CityCard extends Component {
   render() {
     const {
       title,
-      img,
+      image,
       subtitle,
       description,
       directionsLink,
@@ -20,7 +20,7 @@ export default class CityCard extends Component {
     return (
       <div style={cardStyle}>
         <img
-          src={img}
+          src={image}
           width="815"
         />
         <Columns>
